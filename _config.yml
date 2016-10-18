@@ -27,6 +27,7 @@ twitter:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
 - Gemfile
