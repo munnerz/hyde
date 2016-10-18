@@ -11,8 +11,7 @@ description:      ''
 url:              https://mnrz.xyz
 baseurl:          /
 
-author:
-  name:           'James Munnelly'
+author: James Munnelly
 
 paginate:         5
 
@@ -23,6 +22,7 @@ github:
   url:            https://github.com/munnerz
 
 twitter:
+  username: jamesmunnelly
   url:            https://twitter.com/jamesmunnelly
 
 gems:
