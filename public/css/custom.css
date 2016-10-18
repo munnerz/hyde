@@ -1,0 +1,22 @@
+#social-icons {
+  margin-top: 20px;
+  overflow: auto;
+  text-align: center;
+}
+#social-icons a {
+  display: inline;
+}
+#social-icons i.fa {
+  transition: opacity 0.25s ease-in-out;
+  margin-left: 0.3rem;
+  font-size: 2.0rem;
+}
+#social-icons i.fa:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 48em) {
+  #social-icons a {
+    float: left;
+  }
+}
