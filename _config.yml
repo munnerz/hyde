@@ -25,6 +25,9 @@ github:
 twitter:
   url:            https://twitter.com/jamesmunnelly
 
+gems:
+  - jekyll-sitemap
+
 exclude:
 - Gemfile
 - Gemfile.lock
