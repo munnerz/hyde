@@ -16,8 +16,8 @@ author:
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+config:
+  ga: UA-85898356-1
 
 github:
   url:            https://github.com/munnerz
