@@ -56,3 +56,17 @@ div.gsc-control-cse {
     float: left;
   }
 }
+
+@media (max-width: 48em) {
+  #search-box {
+  	display: none;
+  }
+}
+
+form[name="contact"] div.input {
+	display: block;
+
+	label, input, textarea {
+		display: block;
+	}
+}
