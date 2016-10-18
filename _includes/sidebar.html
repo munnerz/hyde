@@ -7,6 +7,11 @@
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
+
+      <div id="social-icons">
+        <a class="sidebar-nav-item" href="{{ site.github.url }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a class="sidebar-nav-item" href="{{ site.twitter.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
     </div>
 
     <nav class="sidebar-nav">
@@ -25,11 +30,20 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <div id="social-icons">
-        <a class="sidebar-nav-item" href="{{ site.github.url }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a class="sidebar-nav-item" href="{{ site.twitter.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      </div>
     </nav>
+    <div id="search-box">
+      <script>
+        (function() {
+          var cx = '006660449069744983589:xgmt1g3ens4';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
+    </div>
   </div>
 </div>
